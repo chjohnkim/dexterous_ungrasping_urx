@@ -1,0 +1,6 @@
+board_dimension: 9 # go board dimension is 19x19
+board_height: 0.03 # Height of the board w.r.t. robot base frame. Should choose carefully, in case of collision. Height of UR10 Hong optical table is around -0.02.
+corner_BL: [-0.4119,    0.6166,    0] # Coordinate of bottom left corner of go board in robot base frame 
+corner_BR: [-0.5765, 0.6146,    0] # Coordinate of bottom right corner of go board in robot base frame
+corner_TL: [-0.4105, 0.4418, 0] # Coordinate of top left corner of go board in robot base frame
+corner_TR: [-0.5766, 0.4417, 0] # Coordinate of top right corner of go board in robot base frame
